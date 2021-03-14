@@ -9,29 +9,43 @@
 </head>
 
 <body>
-    <img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt="logo">
-    <form action="a" method="GET">
-        <h3>文本输入框：</h3> <input type="text" name="username" placeholder="用户名"><br>
-        <h3>密码输入框：</h3> <input type="password" name="password" placeholder="密码"><br>
-        <h3>上传文件：</h3> <input type="file" name="file" >
-        <h3>多选输入框：</h3>
-        <dl>
-            <dt>编程</dt>
-                <dd><input type="checkbox" name="language" value="JavaScript">JavaScript</dd>
-                <dd><input type="checkbox" name="language" value="python">python</dd>
-                <dd><input type="checkbox" name="language" value="c++">C++</dd>  
-        </dl>
-        <dl><h3>单选属性：</h3> 
-            <dt>性别</dt>
-            <dd>男<input type="radio" name="gender" value="boy" > </dd>
-            <dd>女<input type="radio" name="gender" value="girl" > </dd>
-        </dl>
-        <h3>高亮文本：</h3><p>&lt;mark&gt; 元素用于 <mark>高亮</mark> 文本</p><br>
-        <input type="color" name="color"><br>
-        <h3>选择日期：</h3><input type="date" name="date"><br>
-        <h3>选择日期时间：</h3><input type="datetime-local" name="datetime"><br>
-        <h3>email输入框：</h3> <input type="email" name="email" placeholder="xxx@xx.com"><br>
+    <form action="a" method="GET"></form>
+        <div class="float">
+            <img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt="logo">
+            
+                <h3>文本输入框：</h3> <input type="text" name="username" placeholder="用户名"><br>
+                <h3>密码输入框：</h3> <input type="password" name="password" placeholder="密码"><br>
+                <h3>上传文件：</h3> <input type="file" name="file" >
+                <h3>多选输入框：</h3>
+                <dl>
+                    <dt>编程</dt>
+                        <dd><input type="checkbox" name="language" value="JavaScript">JavaScript</dd>
+                        <dd><input type="checkbox" name="language" value="python">python</dd>
+                        <dd><input type="checkbox" name="language" value="c++">C++</dd>  
+                </dl>
 
+
+        </div>
+
+        <div class="float">
+            <dl><h3>单选属性：</h3> 
+                <dt>性别</dt>
+                <dd>男<input type="radio" name="gender" value="boy" > </dd>
+                <dd>女<input type="radio" name="gender" value="girl" > </dd>
+            </dl>
+            <h3>高亮文本：</h3><p>&lt;mark&gt; 元素用于 <mark>高亮</mark> 文本</p><br>
+            <input type="color" name="color"><br>
+            <h3>选择日期：</h3><input type="date" name="date"><br>
+            <h3>选择日期时间：</h3><input type="datetime-local" name="datetime"><br>
+            <h3>email输入框：</h3> <input type="email"  name="email" placeholder="xxx@xx.com"><br>
+            <h3>带图片的提交按钮：</h3> <input type="image"  name="girl1" class="img">
+
+        </div>
+        <div class="float">
+            <h3>输入数字：</h3> <input type="number" name="number" >
+            <h3>范围取值控件：</h3> <input type="range" name="rangeValue" min="0" max="100" >
+            
+        </div>
         <h3>提交按钮：</h3> <input type="submit" value="完成">
     </form>
 </body>
